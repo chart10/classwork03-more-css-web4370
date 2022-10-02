@@ -1,0 +1,37 @@
+header {
+    text-align: center;
+}
+
+main {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+}
+
+.column {
+    padding: 2em;
+    margin: 2em;
+    border: 4px dashed red;
+}
+
+aside {
+    flex-basis: 33%;
+}
+
+#right-col {
+    flex-basis: 67%;
+}
+
+#right-bottom-text {
+    clear: both;
+}
+
+img {
+    float: right;
+    width: 200px;
+}
+
+#final-text {
+    position: fixed;
+    bottom: 5px;
+}
